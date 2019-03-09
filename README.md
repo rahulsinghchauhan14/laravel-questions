@@ -29,3 +29,7 @@ here you can find laravel daily questions, which you have faced into your daily 
 
 
 new email id{ rahulbitbucket@gmail.com }
+
+//https://laracasts.com/series/laravel-from-scratch-2018/episodes/8
+
+--allow-unrelated-histories
