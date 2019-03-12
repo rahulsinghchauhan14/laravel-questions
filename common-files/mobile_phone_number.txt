@@ -1,0 +1,32 @@
+responsive.css
+@media (max-width: 480px) {
+.phone_fixed{display: block;background: #005294;text-align: center;padding: 10px 0;position: fixed;bottom: 0;width: 100%;z-index: 99;}
+.phone_fixed a{color: #fff;font-size: 18px;letter-spacing: 1px;}
+.phone_fixed a:hover{text-decoration: none;color: #fff;}
+.toll_free{display: block;width: 100%;text-align: center;text-align: center;padding: 10px 0;width: 100%;background: #005294;position: fixed;right: 0%;}
+.toll_free a{color: #fff;font-size: 18px;letter-spacing: 1px;}
+.toll_free a:hover{text-decoration: none;color: #fff;}
+}
+
+==========================================================================================================================================================
+
+style.css
+
+ .phone_fixed{
+	display:none;
+}.toll_free{display: none;}
+===========================================================================================================================================================
+
+header 
+
+<div class="toll_free">
+	<a href="tel: <?php echo $tfn;?>"> <i class="fa fa-phone"></i> <?php echo $tfn;?> </a>
+</div>
+===========================================================================================================================================================
+
+footer
+
+<div class="phone_fixed">
+	<a href="tel: <?php echo $tfn;?>">Toll Free: <?php echo $tfn;?></a>
+</div>
+===========================================================================================================================================================
